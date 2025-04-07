@@ -238,26 +238,3 @@ footer a img:hover {
     color: #94a1b2;
     font-size: 0.9rem;
 }
-
-/* cari */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
-    }
-
-    .input-search {
-        width: 100%;
-        margin-bottom: 0.5rem;
-    }
-
-    .input-submit {
-        width: 100%;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-}
