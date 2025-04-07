@@ -22,24 +22,6 @@ function plusDivs(n) {
     showSlides();
 }
 
-//cari
-function setupSearch() {
-    const searchInput = document.querySelector('.input-search');
-    searchInput.addEventListener('input', function () {
-        const query = this.value.toLowerCase();
-        const products = document.querySelectorAll('.populer > div');
-
-        products.forEach(product => {
-            const title = product.querySelector('.judul-produk').textContent.toLowerCase();
-            if (title.includes(query)) {
-                product.style.display = "block";
-            } else {
-                product.style.display = "none";
-            }
-        });
-    });
-}
-
 //inisialisasi
 window.onload = function () {
     showSlides();
